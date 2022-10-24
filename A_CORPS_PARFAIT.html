@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <!-- Requierd meta tags -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta type="description" content="Salle de sport associatif à Eysines spécialisé dans la remise en forme, musculation et haltérophilie.">
+    <title>ACORPS PARFAIT : Association Sport Forme Santé</title>
+
+    <!-- Bootstrap CSS / FontAwesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- PopperJs-->
+    <!-- Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="script.js" defer></script>
+
+  </head>
+
+  <body>
+
+    <!-- Menu de navigation -->
+
+    <nav class="navbar sticky-top">
+      <div class="container-brand">
+        <img class="logo" src="Photos\logo-clean.png" alt="logo" width="150" height="100">
+        <a class="brand-title" href="#">ACORPS PARFAIT</a>
+      </div>
+
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+
+      <!-- Onglets de navigation -->
+
+      <div class="navbar-links">
+        <ul>
+          <li><a href="#presentation">PRESENTATION</a></li>
+          <li><a href="#activites">ACTIVITES</a></li>
+          <li><a href="#coaching">COACHING</a></li>
+          <li><a href="#team">L'EQUIPE</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Contenu principal -->
+
+    <main>
+      <div class="banner-image" id="container-banner-image"></div>
+
+      <!-- Présentation -->
+
+      <section class="presentation" id="presentation">
+        <h1 class="h1-presentation py-2">ACORPS PARFAIT</h1>
+        <p style="padding-top: 15px">Nous sommes heureux de vous acceuilir au sein de notre salle de sport !</p>
+        <p>Notre but : Vous proposer un accompagnement adapté pour la réalisation de vos objectifs. </p>
+        <p>Au programme : Circuit training, Haltérophilie, Musculation & Cardio-Training, Cours de boxe.
+        <p>Vous souhaitez un suivi personnalisé : Venez découvrir nos offres de coachings de groupe ou privé pour des résultats garantis. </p>
+        <p>Nos coachs professionnels se feront un plaisir de vous guider et vous accompagner tout au long de votre programme le tout dans la bonne humeur !</p>
+
+        <div class="container-photo-challenge">
+          <img src="Photos\challenge.jpg" class="photo-challenge" alt="groupe-challenge" height="750">
+        </div>
+      </section>
+
+      <!-- Sépration de bloc -->
+      <div class="split"></div>
+
+      <!-- PRIX -->
+
+      <section class="prix">
+        <div class="container-prix text-center py-2">
+          <h2 class="title-tarif display-1">Tarif</h2>
+          <p class="lead">Nos offres</p>
+        </div>
+
+        <div class="container text-center">
+          <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+              <div class="card shadow-lg">
+                <div class="card-header">
+                  <h4>Classique</h4>
+                </div>
+
+                <div class="card-body">
+                  <h2 class="my-0 font-weight-normal">280€ <small class="text-muted">/an</small></h2>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>Accès à la salle</li>
+                      <li>Programme d'entrainement</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card shadow-lg">
+                <div class="card-header">
+                  <h4>Coaching de groupe</h4>
+                </div>
+
+                <div class="card-body">
+                  <h2 class="my-0 font-weight-normal">450€ <small class="text-muted">/an</small></h2>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>Accès à la salle</li>
+                      <li>Programme d'entrainement</li>
+                      <li>3 coachings de groupe/semaine</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card shadow-lg">
+                <div class="card-header">
+                  <h4>Coaching individuel</h4>
+                </div>
+
+                <div class="card-body">
+                  <h2 class="my-0 font-weight-normal">600€ <small class="text-muted">/an</small></h2>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>Accès à la salle</li>
+                      <li>Programme d'entrainement</li>
+                      <li>Programme alimentaire</li>
+                      <li>10H coaching privé/mois</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="planning">
+        <h2 class="h2-planning display-1">Planning</h2>
+          <img src="Photos\Planning.jpg" class="photo-planning" alt="planning" height="650">
+      </section>
+
+      <!-- Sépration de bloc -->
+      <div class="split"></div>
+
+      <!-- Les différentes activités -->
+
+      <section class="activite-all" id="activites">
+          <div class="activite-halterophilie" style="padding-bottom: 20px">
+            <h2 class="h2-title-activite py-4">LES ACTIVITES</h2>
+            <h3 class="h3-title-halterophilie">HALTEROPHILIE</h3>
+            <h4 class="h4-keyword-activite" id="h4-keyword-halterophilie">TECHNIQUE, SOUPLESSE, VITESSE</h4>
+            <p>Que vous soyez débutant ou confirmé, notre équipe vous prendra en charge afin de vous aider à vous développer dans cette discipline.</p>
+            <p>Apprentissage des bases ou travail spécifique (spécial jeté, squat, mobilité, préparation de compétition), un programme et un accompagnement spécifique vous sera attribué pour répondre à vos besoins et objectifs.</p>
+            <p>Un espace entier a été dédié avec 6 plateaux d'haltérophilie, 10 barres olympiques, 2 racks à squat ainsi que des blocs de réception.</p>
+            <p>Notre association est egalement engagé en compétition au niveau régional et des compétitions sont organisées régulièrement.</p>
+            <img src="Photos\Halterophilie 1.JPG" class="image-halterophilie" alt="Image halterophilie" height="650">
+            <img src="Photos\compétition.png" class="competition-halterophilie" alt="Compétition haltero" height="650">
+          </div>
+
+          <!-- Sépration de bloc -->
+          <div class="split"></div>
+
+          <div class="activite-musculation">
+            <div class="container-text-image-musculation">
+              <div class="container-text-musculation">
+                <h3 class="h3-title-musculation">MUSCULATION & CARDIO-TRAINING</h3>
+                <h4 class="h4-keyword-activite" id="h4-keyword-musculation">VOLUME, FORCE, ENDURANCE </h4>  
+                <p>Vous souhaitez développer votre masse musculaire, gagner en force ou travailler votre cœur ?<p>
+                <p>Nous mettons à votre disposition un vaste choix de machines guidé, 3 bancs pour le développé couché, une presse à cuisse et un hack squat incliné ainsi qu'une gamme d'haltères allant jusqu'à 50kilos.</p>
+                <p style="padding-bottom : 25px">Pour l'entrainement cardio : rameurs, tapis de course, vélo de course et elliptique ainsi que stepper seront répondre à vos besoins.</p>
+              </div>
+              <img src="Photos\Nicolas muscu.jpg" class="image-musculation" alt="Musculation" height="650">
+              <img src="Photos\cardio-training.jpg" class="image-cardiotraining" alt="CardioTraining" height="650">
+            </div>
+          </div>
+
+          <div class="split"></div>
+
+          <div class="activite-boxe">
+            <div class="container-text-image-boxe">
+              <div class="container-text-boxe">
+                <h3 class="h3-title-boxe">BOXE</h3>
+                <h4 class="h4-keyword-activite" id="h4-keyword-boxe">REFLEXE, PRECISION, MENTAL </h4>
+                <p>Enfilez les gants et venez découvrir le monde de la boxe anglaise !</p>
+                <p>Des cours de boxe avec sparring et exercices technique d'une durée de 1h ont lieu 2 fois par semaine.</p>
+                <p>Tu trouveras aussi des sacs de frappe, une poire en cuir, des poires de vitesse et des ballons élastique.</p>
+                <p>Idéal pour se vider la tête tout en travaillant son cardio.</p>
+              </div>
+                <img src="Photos\Boxe.png" class="image-boxe" alt="Boxe" height="650">
+            </div>
+          </div>
+
+          <!-- Sépration de bloc -->
+          <div class="split"></div>
+
+      </section>
+
+      <!-- Les coachings + bouton redirection -->
+
+      <section class="coaching" id="coaching">
+        <h2 class="h2-title-coaching py-2">LES COACHINGS</h2>
+        <h4 class="h4-keyword-activite" id="h4-keyword-coaching">ACCOMPAGNEMENT, SUIVI, CONSEILS</h4>
+        <p style=>Vous cherchez un réel encadrement et des résultats rapides ?<br></p>
+        <p>Optez pour nos programmes ayant fait leurs preuves sur des centaines d'adhérants !</p>
+        
+         <!-- Bouton de redirection -->
+
+        <div class="container text-center">
+          <a class="btn btn-dark" href="Coaching.html" role="button">DÉCOUVRIR LES PROGRAMMES</a>
+        </div>
+
+        <div class="container-photo-coaching">
+          <img src="Photos\coaching de groupe 3.jpg" class="image-coaching" alt="Coaching de groupe" height="650">
+        </div>
+
+      </section>
+
+      <!-- Sépration de bloc -->
+      <div class="split"></div>
+
+      <!-- L'équipe -->
+
+      <section class="team" id="team">
+        <h2 class="h2-title-team py-4">LA TEAM</h2>
+          <div class="text-presentation-coach">
+            <p>Pas de coaching sans top coach !</p>
+            <p>Notre salle est fière d'avoir une équipe passionnée, professionnels et dévoué au bien-être de ses adhérants.</p>
+          </div>
+
+          <img src="Photos\team.png" class="photo-team" alt="team" height="650">
+
+
+        <div class="coach">
+          <div class="container-nicolas-text-photo">
+            <h3 class="h3-title-coach" id="h3-title-nicolas">NICOLAS</h3>
+
+            <img src="Photos\Nicolas portrait.jpg" class="photo-nicolas" alt="Nicolas" height="500">
+
+            <div class="read-more-container"></div>
+
+              <p>Sportif depuis mon plus jeune âge, j'ai commencé dans le cyclisme. Après avoir roulé à travers toute la France, j'ai décidé de troquer le vélo contre les barres d'haltérophilie, les haltères et les gants de boxe
+              <span class="dots">[...]</span><br><br>
+              <span class="more">
+                  Grand compétiteur dans l'âme, j'aspire à devenir une meilleure version de moi-même chaque nouveau jour et je mets un point d'honneur dans le respect de mes entrainements.<br><br>
+                  Mon objectif aujourd'hui est d'accompagner les personnes qui souhaitent évoluer dans cette direction ! <br><br>
+                </span>
+
+              <button class="read">Afficher plus</button>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="coach">
+          <h3 class="h3-title-coach" id="h3-title-ingrid">INGRID</h3>
+
+            <img src="Photos\Ingrid.jpg" class="photo-ingrid" alt="Ingrid" height="500">
+
+            <div class="read-more-container">
+
+              <p>Ancienne spriteuse de niveau nationale, j'ai toujours été intéressée par la préparation physique et mentale avant les compétitions
+              <span class="dots">[...]</span><br><br>
+              <span class="more">
+                C'est pourquoi depuis 5 ans, j'ai décidée de me focaliser sur cet aspect et de proposer des préparations individuels spécifique aux athlètes que j'encadre. <br><br>
+                Votre réussite est la mienne ! <br><br>
+                </span>
+              <button class="read">Afficher plus</button>
+              </p>
+            </div>
+        </div>
+      </section>
+
+       <!-- Sépration de bloc -->
+       <div class="split"></div>
+
+      <!-- Contact -->
+
+      <section class="contact" id="contact">
+        <h2 class="h2-title-contact py-4">CONTACT</h2>
+          <div class="container-contact">
+            <!-- Formulaire de contact-->
+            <div class="form-container">
+                <h3>Besoin d'informations ? Contactez-nous :</h3>
+                <form action="" class="contact-form">
+                  <input type="text" placeholder="Nom" required>
+                  <input type="email" name="" id="" placeholder="E-mail" required>
+                  <textarea name="" id="" cols="30" row="10" placeholder="Message" required></textarea>
+                  <input type="submit" value="Envoyer" class="send-button">
+                </form>
+            </div>
+            <!-- Carte -->
+            <div class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2826.47755599346!2d-0.6667363842403!3d44.89327997937631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd54d6db16b09dab%3A0x4408acee996b7be5!2sA%20Corps%20Parfait%20%3A%20Association%20Sport%20Forme%20Sant%C3%A9!5e0!3m2!1sfr!2sfr!4v1664733364420!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+      </section>
+    </main>
+  </body>
+
+  <footer>
+    <div class="footer-body">
+      <div class="footer-content">
+        <h3 style="text-transform: uppercase">Rejoingnez-nous</h3>
+        <p>Ne ratez rien sur toutes les actualités et les évènements à venir de votre salle en nous suivant sur Instagram, Facebook & Youtube !</p>
+        <ul class="socials">
+          <li><a class="instagram" href="https://www.instagram.com/abnegation_sport/" target="_blank"><i class="bi bi-instagram" id="ig"></i></a></li>
+          <li><a class="facebook" href="https://www.facebook.com/profile.php?id=100063901151629" target="_blank"><i class="bi bi-facebook" id="fb"></i></a></li>
+         <li><a class="youtube" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ?mute=0;autoplay=1" target="_blank"><i class="bi bi-youtube" id="yt"></i></a></li>
+        </ul>
+        <div class="footer-bottom">
+          <p>Copyright &copy;2022 STUDI</p>
+          <p>designed by <span>ADAM Guillaume</span></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</html>
