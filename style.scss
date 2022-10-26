@@ -524,9 +524,9 @@ h3, .h4-keyword-activite {
   background-color: white;
 }
 
-.coaching > p {
+.container-text-image-coaching > p {
   color:darkblue;
-  text-align: justify;
+  text-align: center;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -556,19 +556,34 @@ h3, .h4-keyword-activite {
 #h4-keyword-coaching {
   padding-top: 20px;
   margin-bottom: 20px;
+  text-align: center;
   color: darkblue;
 }
 
 @media screen and (min-width: 768px){
 
-  .coaching > p, #h4-keyword-coaching {
+  .container-text-image-coaching {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container-text-image-coaching > p {
+    font-size: 18px;
+  }
+
+  .container-text-image-coaching > p, #h4-keyword-coaching {
     text-align: center;
   }
 
-  .image-coaching {
-    height: auto;
-    width: 100%;
+  .container-photo-coaching > .image-coaching {
+    height: 500px;
+    width: 95%;
     border-radius: 0%;
+    object-fit: cover;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .btn {
@@ -576,9 +591,6 @@ h3, .h4-keyword-activite {
     font-size: 25px;
   }
 }
-/*.coaching {
-     padding-left: 350px;
-    padding-right: 350px;*/
 
 /* ......../ L'EQUIPE /.......... */
 
