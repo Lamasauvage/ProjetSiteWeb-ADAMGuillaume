@@ -226,16 +226,15 @@ h3, .h4-keyword-activite {
 @media screen and (min-width: 768px){
   .photo-challenge {
     scale: none;
+    height: 700px;
+    object-fit: cover;
+   
   }
+
   .container-photo-challenge {
     text-align: center;
     padding-top: 50px;
   }
-
- /* .presentation {
-    padding-left: 400px;
-    padding-right: 400px;
-  } */
 }
 
 /* ..../ TARIF /..... */
@@ -739,10 +738,18 @@ h3, .h4-keyword-activite {
   
   .container-coach {
     display: flex;
+    align-content:space-between;
+    flex-direction: row;
   }
 
   #h3-title-ingrid {
     padding-top: 50px;
+  }
+
+  .photo-ingrid {
+    height: 500px;
+    width: 400px;
+    
   }
 }
 
@@ -880,7 +887,6 @@ footer {
 }
 
 .footer-content p {
-  max-width: 500px;
   margin: 10px 50px 20px;
   line-height: 28px;
   font-size: 14px;
@@ -923,7 +929,7 @@ footer {
 
 .footer-bottom {
   background: black;
-  width: 100vw;
+  width: 100%;
   padding: 20px 0;
   text-align: center;
 }
@@ -934,8 +940,8 @@ footer {
   text-transform: capitalize;
 }
 
-.footer-bottom span {
-  text-transform: uppercase;
-  opacity: .4;
-  font-weight: 200;
+@media screen and (min-width:768px) {
+  .footer-bottom p {
+    text-align: center;
+  }
 }
