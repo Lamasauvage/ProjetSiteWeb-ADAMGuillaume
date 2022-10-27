@@ -260,15 +260,22 @@ h3, .h4-keyword-activite {
   text-align: center;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .photo-planning {
-    max-width: 40%;
+    max-width: 60%;
     padding-top: 50px;
   }
 
   .h2-planning {
     font-size: 4rem;
     padding-top: 30px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .photo-planning {
+    height: auto;
+    width: 700px;
   }
 }
 
@@ -569,7 +576,7 @@ h3, .h4-keyword-activite {
   }
 
   .container-text-image-coaching > p {
-    font-size: 18px;
+    font-size: 19px;
   }
 
   .container-text-image-coaching > p, #h4-keyword-coaching {
@@ -695,7 +702,7 @@ h3, .h4-keyword-activite {
 #more {display: none;}
 
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .text-presentation-coach {
     text-align: center;
   }
@@ -706,6 +713,24 @@ h3, .h4-keyword-activite {
   }
 }
 
+@media screen and (min-width: 1025px) {
+
+  .text-presentation-coach {
+    text-align: center;
+    font-size: 18px;
+
+  }
+  .photo-team {
+    width: 100% ;
+    max-width:100%;
+    height: 500px;
+    border-radius: 0;
+    margin: 0 0;
+    object-position: 0 25%;
+    object-fit: cover;
+    padding-top: 50px;
+  }
+}
 
 
 /* ......../ CONTACT /.......... */
