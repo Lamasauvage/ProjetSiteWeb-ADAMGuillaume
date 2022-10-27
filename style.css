@@ -1,8 +1,8 @@
 /* ......../ GENERAL /.......... */
 /* ..../ GOOGLE FONTS /..... */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: "Lato", sans-serif;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -327,7 +327,8 @@ h3, .h4-keyword-activite {
     width: 90%;
     height: 750px;
     padding-top: 20px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 /* ...../ MUSCULATION /....... */
@@ -380,7 +381,8 @@ h3, .h4-keyword-activite {
     height: 750px;
     width: 100%;
     padding-right: 20px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .container-text-image-musculation > .image-cardiotraining {
     height: 400px;
@@ -456,8 +458,9 @@ h3, .h4-keyword-activite {
   }
   .container-text-image-boxe > .image-boxe {
     height: 750px;
-    width: 100%;
-    object-fit: cover;
+    width: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   #h4-keyword-boxe, .h3-title-boxe {
     text-align: center;
@@ -523,7 +526,8 @@ h3, .h4-keyword-activite {
     height: 500px;
     width: 95%;
     border-radius: 0%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
