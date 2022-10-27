@@ -295,6 +295,12 @@ h3, .h4-keyword-activite {
   margin-top: -60px;
 }
 
+@media screen and (min-width: 768px) {
+  .h2-title-activite {
+    font-size: 55px;
+  }
+}
+
   /* ...../ HALTEROPHILIE /....... */
 
 .activite-halterophilie {
@@ -623,7 +629,7 @@ h3, .h4-keyword-activite {
   
 }
 
-.coach p {
+.read-more-container, .container-nicolas-text-photo p {
   color: white;
   text-align: justify;
   padding-left: 20px;
@@ -728,6 +734,14 @@ h3, .h4-keyword-activite {
     margin: 0 0;
     object-position: 0 25%;
     object-fit: cover;
+    padding-top: 50px;
+  }
+  
+  .container-coach {
+    display: flex;
+  }
+
+  #h3-title-ingrid {
     padding-top: 50px;
   }
 }
