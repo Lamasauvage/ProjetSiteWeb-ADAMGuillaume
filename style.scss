@@ -17,7 +17,7 @@ body {
   padding: 0;
 }
 
-/* ......../ NAVBAR /.......... */
+/* ......../ NAVBAR /..........  */
 
 .navbar {
   display: flex;
@@ -95,7 +95,7 @@ nav.navbar {
   width: 100%;
   background-color: white;
   border-radius: 10px;
-}
+} 
 
 /* ......../ IMAGE DE COUVERTURE /.......... */
 
@@ -169,6 +169,16 @@ nav.navbar {
   padding-left: 10px;
 }
 
+@media screen and (min-width: 768px) {
+  .navbar-links ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .toggle-button {
+    display: none;
+  }
+}
 
 /* ......../ BODY - CLASSES GLOBAL /.......... */
 
@@ -474,7 +484,7 @@ h3, .h4-keyword-activite {
 
 .image-boxe {
   height: 500px;
-  max-width: 95%;
+  max-width: 100%;
   border-radius: 25px;
   text-align: center;
   display: flex;
@@ -516,8 +526,8 @@ h3, .h4-keyword-activite {
   }
 
   .container-text-image-boxe > .image-boxe {
-    height: 750px;
-    width: 50%;
+    height: 700px;
+    width: 40%;
     object-fit: cover;
   }
 
