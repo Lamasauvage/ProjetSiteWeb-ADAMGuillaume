@@ -163,9 +163,6 @@ nav.navbar {
     display: flex;
     flex-direction: row;
   }
-  .toggle-button {
-    display: none;
-  }
 }
 /* ......../ BODY - CLASSES GLOBAL /.......... */
 .split {
