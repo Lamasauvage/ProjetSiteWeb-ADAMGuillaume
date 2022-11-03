@@ -121,13 +121,31 @@ nav.navbar {
   right: 0;
 }
 
-/* ......../ NAVBAR /.......... 
-
-.toggle-button {
-  display: flex;
-  text-align: center;
+/* ......../ NAVBAR /.......... */
+.brand-title {
+  padding-bottom: 20px;
 }
 
+.nav-item > a {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 975px) {
+  .navbar-nav > li {
+    padding-top: 15px;
+    text-align: center;
+  }
+  .brand-title {
+    font-size: 30px;
+  }
+  .navbar-nav.active {
+    display: flex;
+  }
+}
+/*
 .navbar {
   align-items: flex-start;
   position: fixed;
@@ -153,25 +171,6 @@ nav.navbar {
 
 .navbar-links.active {
   display: flex;
-}
-
-.brand-title {
-  padding-left: 10px;
-}
-
-@media screen and (min-width: 768px) {
-  .navbar-links ul {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .navbar-links.active {
-    display : block;
-  }
-
-  .toggle-button {
-    display: none;
-  }
 }
 
 /* ......../ BODY - CLASSES GLOBAL /.......... */
