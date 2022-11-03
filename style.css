@@ -12,7 +12,7 @@ body {
   padding: 0;
 }
 
-/* ......../ NAVBAR /.......... */
+/* ......../ NAVBAR /..........  */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -122,42 +122,29 @@ nav.navbar {
 }
 
 /* ......../ NAVBAR /.......... */
-.toggle-button {
-  display: flex;
-  text-align: center;
-}
-
-.navbar {
-  align-items: flex-start;
-  position: fixed;
-}
-
-.navbar-links {
-  display: none;
-  width: 100%;
-}
-
-.navbar-links ul {
-  width: 100%;
-  flex-direction: column;
-}
-
-.navbar-links li {
-  text-align: center;
-}
-
-.navbar-links li a {
-  padding: 0.5rem 1rem;
-}
-
-.navbar-links.active {
-  display: flex;
-}
-
 .brand-title {
-  padding-left: 10px;
+  padding-bottom: 20px;
 }
 
+.nav-item > a {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 975px) {
+  .navbar-nav > li {
+    padding-top: 15px;
+    text-align: center;
+  }
+  .brand-title {
+    font-size: 30px;
+  }
+  .navbar-nav.active {
+    display: flex;
+  }
+}
 /* ......../ BODY - CLASSES GLOBAL /.......... */
 .split {
   height: 20px;
@@ -430,7 +417,7 @@ h3, .h4-keyword-activite {
 
 .image-boxe {
   height: 500px;
-  max-width: 95%;
+  max-width: 100%;
   border-radius: 25px;
   text-align: center;
   display: flex;
@@ -467,8 +454,8 @@ h3, .h4-keyword-activite {
     font-size: 18px;
   }
   .container-text-image-boxe > .image-boxe {
-    height: 750px;
-    width: 50%;
+    height: 700px;
+    width: 40%;
     -o-object-fit: cover;
        object-fit: cover;
   }
