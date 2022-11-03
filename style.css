@@ -121,7 +121,8 @@ nav.navbar {
   right: 0;
 }
 
-/* ......../ NAVBAR /.......... */
+/* ......../ NAVBAR /.......... 
+
 .toggle-button {
   display: flex;
   text-align: center;
@@ -147,7 +148,7 @@ nav.navbar {
 }
 
 .navbar-links li a {
-  padding: 0.5rem 1rem;
+  padding: .5rem 1rem;
 }
 
 .navbar-links.active {
@@ -163,7 +164,16 @@ nav.navbar {
     display: flex;
     flex-direction: row;
   }
+
+  .navbar-links.active {
+    display : block;
+  }
+
+  .toggle-button {
+    display: none;
+  }
 }
+
 /* ......../ BODY - CLASSES GLOBAL /.......... */
 .split {
   height: 20px;

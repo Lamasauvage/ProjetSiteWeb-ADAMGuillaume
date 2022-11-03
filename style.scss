@@ -130,7 +130,7 @@ nav.navbar {
   right: 0;
 }
 
-/* ......../ NAVBAR /.......... */
+/* ......../ NAVBAR /.......... 
 
 .toggle-button {
   display: flex;
@@ -138,7 +138,6 @@ nav.navbar {
 }
 
 .navbar {
-  // flex-direction: column;
   align-items: flex-start;
   position: fixed;
 }
@@ -175,6 +174,13 @@ nav.navbar {
     flex-direction: row;
   }
 
+  .navbar-links.active {
+    display : block;
+  }
+
+  .toggle-button {
+    display: none;
+  }
 }
 
 /* ......../ BODY - CLASSES GLOBAL /.......... */
