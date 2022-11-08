@@ -199,8 +199,7 @@ h3, .h4-keyword-activite {
   .photo-challenge {
     scale: none;
     height: 700px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   .container-photo-challenge {
     text-align: center;
@@ -324,8 +323,7 @@ h3, .h4-keyword-activite {
     width: 90%;
     height: 750px;
     padding-top: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
 }
 /* ...../ MUSCULATION /....... */
@@ -378,8 +376,7 @@ h3, .h4-keyword-activite {
     height: 750px;
     width: 100%;
     padding-right: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   .container-text-image-musculation > .image-cardiotraining {
     height: 400px;
@@ -456,8 +453,7 @@ h3, .h4-keyword-activite {
   .container-text-image-boxe > .image-boxe {
     height: 700px;
     width: 40%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   #h4-keyword-boxe, .h3-title-boxe {
     text-align: center;
@@ -523,8 +519,7 @@ h3, .h4-keyword-activite {
     height: 500px;
     width: 95%;
     border-radius: 0%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
@@ -650,10 +645,8 @@ h3, .h4-keyword-activite {
     height: 500px;
     border-radius: 0;
     margin: 0 0;
-    -o-object-position: 0 25%;
-       object-position: 0 25%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-position: 0 25%;
+    object-fit: cover;
     padding-top: 50px;
   }
   .container-coach {
@@ -856,4 +849,8 @@ footer {
   .footer-bottom p {
     text-align: center;
   }
+}
+.banner-image-coaching {
+  height: auto;
+  max-width: 100%;
 }/*# sourceMappingURL=style.css.map */
